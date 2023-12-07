@@ -18,6 +18,7 @@ const Background = () => {
     await loadFull(main);
   };
   return (
+    
     <Particles
       id="tsparticles"
       init={particlesInit}
@@ -398,7 +399,7 @@ const Background = () => {
             "close": true,
             "fill": true,
             "options": {},
-            "type": "triangle"
+            "type": "square"
           },
           "size": {
             "random": {
